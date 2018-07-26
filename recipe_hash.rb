@@ -35,6 +35,6 @@ def amounts(perfect_10_recipe={:almond_flour => "2 cups", :gluten_free_whole_oat
   return perfect_10_recipe.values
 end
 
-#6: Return the number of ingredients in the `perfect_10_recipe` hash.
-# def number_ingredients(perfect_10_recipe)
-# end
+
+def number_ingredients(perfect_10_recipe)
+end
