@@ -15,7 +15,7 @@ end
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |x,y|
-    print "#{x} #{y}"
+    puts "#{x} #{y}"
   end
 end
 
@@ -26,7 +26,7 @@ end
 
 
 def amounts(perfect_10_recipe)
-  print perfect_10_recipe.values
+  puts perfect_10_recipe.values
 end
 
 
