@@ -17,7 +17,7 @@ amount_of_chocolate_chips
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |x,y|
-    return "#{x} #{y}"
+    puts "#{x} #{y}"
   end
 end
 
