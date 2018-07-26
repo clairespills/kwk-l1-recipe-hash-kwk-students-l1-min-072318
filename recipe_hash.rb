@@ -8,6 +8,7 @@ def recipe_ingredients(perfect_10_recipe)
 end
 
 def amount_of_chocolate_chips(perfect_10_recipe)
+  perfect_10_recipe[:amount_of_chocolate_chips]
 end
 
 amount_of_chocolate_chips
