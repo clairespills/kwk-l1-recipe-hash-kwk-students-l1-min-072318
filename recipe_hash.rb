@@ -21,7 +21,7 @@ end
 
 
 def ingredients(perfect_10_recipe)
-  print perfect_10_recipe.keys
+  puts perfect_10_recipe.keys
 end
 
 
